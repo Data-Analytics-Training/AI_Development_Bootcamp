@@ -1,1 +1,1 @@
-# AI_Development_Bootcamp
+# AI Development Bootcamp
