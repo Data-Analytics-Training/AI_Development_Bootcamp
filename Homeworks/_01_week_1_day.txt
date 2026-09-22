@@ -1,0 +1,2 @@
+What is a Large Language Model (LLM)?
+An LLM is a multi-layered artificial neural network, typically based on te Transformer architecture, trained on massive amounts of text data to statistically predict the next word.

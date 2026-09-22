@@ -1,0 +1,30 @@
+What are AI, ML and DL?
+
+Artificial Intelligence (AI):
+Enabling machines to perform functions that require human intelligence, such as learning, reasoning, perception, and problem-solving.
+
+Machine Learning (ML):
+Enables computers to improve themselves by extracting patterns from data without being explicit programmed.
+
+Deep Learning (DL):
+Utilized Artificial Neural Network inspired by the working principles of neurons in the human brain. The term "deep" refers to the large number of layers in these networks.
+
+
+--------------------------------------------------------------------------
+Differences between AI-ML-DL?
+
+Artificial Intelligence -> Goal
+Machine Learning -> Method (A subset of Artificial Intelligence)
+Deep Learning -> Architecture ( A subset of Machine Learning)
+
+
+--------------------------------------------------------------------------
+What is RAG?
+
+Retrieval-Augmented Generation - (RAG): Basically, it is an architecture that allows an LLM (Large Language Model) to go beyond its static training dataset by retrieving data from an external and up-to-date information source and using this data to generate responses.
+
+
+--------------------------------------------------------------------------
+What is Fine-Tuning?
+
+Fine-Tuning: The process of retraining a general-purpose Large Language Model (LLM) with a smaller, targeted dataset specific to certain task or domain to customize if for that purpose.
