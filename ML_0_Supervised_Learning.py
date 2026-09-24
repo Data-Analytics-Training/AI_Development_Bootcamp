@@ -8,12 +8,12 @@ Corresponding Ground Truth Labels (y)
 
 
 Core Architecture:
-	X (Feature) -> Model -> y (Label)
+        X (Feature) -> Model -> y (Label)
 
 For example:
-	- is the e-mail spam or not?
-	- What will the house price be?
-	- Should we offer credit for white goods to this customer?
+        - is the e-mail spam or not?
+        - What will the house price be?
+        - Should we offer credit for white goods to this customer?
 
 There is a LABEL, which represents the type of learning.
 """
@@ -29,7 +29,7 @@ Label:
     0: Fail
     1: Pass 
     
-Algorith Used:
+Algorithm Used:
     Logistic Regression
     
 """
@@ -80,10 +80,12 @@ def main():
 
     model.fit(X, y)
 
+    # ! Instance
+    # Example: The student studies for 6 hours, class attendance is 80%
+
     new_student = np.array([[6, 80]])
 
     # ! Prediction
-    # Example: The student studies for 6 hours, class attendance is 80%
     predict = model.predict(new_student)[0]
 
     # ! Prediction Probability
@@ -106,10 +108,9 @@ def main():
     # ================ In Summary ==============================
     print("Summary:")
     print("Supervised Learning has LABELS")
-    print(
-        "DON'T FORGET: The model learns from the correct answers in the past.")
+    print("DON'T FORGET: The model learns from the correct answers in the past.")
     print("In this example, the labels are 0=Failed, 1=Passed")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
